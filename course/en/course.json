@@ -1,0 +1,414 @@
+{
+  "title": "Leo: Faculty Orientation",
+  "displayTitle": "Faculty Orientation to Leo",
+  "body": "<p style=\"text-align:center\"><span style=\"color:#FFFFFF\"><strong>Learn the basics of teaching and learning with Leo!</strong></span></p><p style=\"text-align:center\"><span style=\"color:#FFFFFF\">Visit each of the topics below to complete this orientation module.</span></p><p style=\"text-align:center\"><span style=\"color:#FFFFFF\">The<em> progress bars</em> will indicate when you have completed each topic.<br />If you have any questions, please contact the Super User at your institution.</span></p>",
+  "subtitle": "",
+  "description": "",
+  "instruction": "",
+  "_htmlClasses": "",
+  "_latestTrackingId": 8,
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "My answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_requireCompletionOf": -1,
+  "_lockType": "",
+  "_id": "course",
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
+  "_globals": {
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources.",
+        "close": "Close",
+        "closeDrawer": "Close Drawer",
+        "closeResources": "Close resources",
+        "drawer": "Top of side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Completed",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
+    "_components": {
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_narrative": {
+        "ariaRegion": "Slide show. Select the next button to progress.",
+        "previous": "{{#if title}}Back to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}"
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Image with selectable areas. Select each button to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_accordion": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit."
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit."
+      },
+      "_mcq": {
+        "ariaRegion": "Multiple choice question"
+      },
+      "_gmcq": {
+        "ariaRegion": "Multiple choice question"
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results."
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_blinds": {
+        "ariaRegion": ""
+      },
+      "_textwithpopup": {
+        "ariaRegion": ""
+      },
+      "_tabs": {
+        "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
+      },
+      "_youtube": {
+        "ariaRegion": "Media component which displays a YouTube video. Select the play / pause button to watch it.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_expose": {
+        "ariaRegion": ""
+      }
+    },
+    "_extensions": {
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional content"
+      },
+      "_resources": {
+        "resources": "Additional resources."
+      },
+      "_close": {
+        "closeButton": "Select here to close the window."
+      }
+    },
+    "_menu": {
+      "_boxMenu": {
+        "durationLabel": "Duration:"
+      }
+    }
+  },
+  "_type": "course",
+  "themeVariables": {
+    "_global": {
+      "font-color": "#000000",
+      "font-color-inverted": "#ffffff",
+      "link": "",
+      "link-inverted": "",
+      "link-hover": "",
+      "link-inverted-hover": "",
+      "heading-color": "#f25922",
+      "heading-color-inverted": "#ffffff"
+    },
+    "_items": {
+      "item-color": "#eeeeee",
+      "item-color-inverted": "#4a4a4a",
+      "item-color-hover": "#bbbbbb",
+      "item-color-inverted-hover": "#4a4a4a",
+      "item-color-selected": "#bbbbbb",
+      "item-color-inverted-selected": "#4a4a4a",
+      "visited": "#eeeeee",
+      "visited-inverted": "#4a4a4a"
+    },
+    "_buttons": {
+      "btn-color": "#dddddd",
+      "btn-color-inverted": "#4a4a4a",
+      "btn-color-hover": "#cccccc",
+      "btn-color-inverted-hover": "#4a4a4a",
+      "disabled": "#eeeeee",
+      "disabled-inverted": "#cccccc"
+    },
+    "_validation": {
+      "validation-success": "#065f28",
+      "validation-success-inverted": "#ffffff",
+      "validation-error": "#ff0000",
+      "validation-error-inverted": "#ffffff"
+    },
+    "_progress": {
+      "progress": "#0e76bc",
+      "progress-inverted": "#ffffff",
+      "progress-border": "#eeeeee"
+    },
+    "_menu": {
+      "menu-item": "rgba(3, 16, 74, 0)",
+      "menu-item-inverted": "#4a4a4a",
+      "menu-item-border-color": "",
+      "menu-item-progress": "",
+      "menu-item-progress-inverted": "",
+      "menu-item-progress-border": "",
+      "menu-item-btn-color": "",
+      "menu-item-btn-color-inverted": "",
+      "menu-item-btn-color-hover": "",
+      "menu-item-btn-color-inverted-hover": ""
+    },
+    "_nav": {
+      "nav": "rgba(3, 16, 74, 0)",
+      "nav-inverted": "rgba(3, 16, 74, 0)",
+      "nav-icon": "",
+      "nav-icon-inverted": "#4a4a4a",
+      "nav-icon-hover": "#dddddd",
+      "nav-icon-inverted-hover": "#4a4a4a",
+      "nav-progress": "#0e76bc",
+      "nav-progress-inverted": "",
+      "nav-progress-border": "",
+      "nav-progress-hover": "",
+      "nav-progress-inverted-hover": "",
+      "nav-progress-border-hover": ""
+    },
+    "_notify": {
+      "notify": "#0e76bc",
+      "notify-inverted": "#ffffff",
+      "notify-link": "",
+      "notify-link-hover": "",
+      "notify-btn": "",
+      "notify-btn-inverted": "",
+      "notify-btn-hover": "",
+      "notify-btn-inverted-hover": "",
+      "notify-icon": "",
+      "notify-icon-inverted": "",
+      "notify-icon-hover": "",
+      "notify-icon-inverted-hover": ""
+    },
+    "_drawer": {
+      "drawer": "#dddddd",
+      "drawer-inverted": "#4a4a4a",
+      "drawer-link": "",
+      "drawer-link-hover": "",
+      "drawer-icon": "",
+      "drawer-icon-inverted": "",
+      "drawer-icon-hover": "",
+      "drawer-icon-inverted-hover": "",
+      "drawer-item": "",
+      "drawer-item-inverted": "",
+      "drawer-item-hover": "",
+      "drawer-item-inverted-hover": "",
+      "drawer-item-selected": "",
+      "drawer-item-inverted-selected": "",
+      "drawer-progress": "",
+      "drawer-progress-inverted": "",
+      "drawer-progress-border": "",
+      "drawer-progress-hover": "",
+      "drawer-progress-inverted-hover": "",
+      "drawer-progress-border-hover": ""
+    },
+    "_misc": {
+      "background": "#23408f",
+      "background-inverted": "#f99d1b",
+      "shadow": "#4a4a4a",
+      "shadow-inverted": "#ffffff"
+    }
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 60
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": true
+  },
+  "_resources": {
+    "_isEnabled": true,
+    "_drawerOrder": 0,
+    "title": "Resources",
+    "description": "Select here to view resources for this course",
+    "_filterButtons": {
+      "all": "All",
+      "document": "Documents",
+      "media": "Media",
+      "link": "Links"
+    },
+    "_filterAria": {
+      "allAria": "View all resources",
+      "documentAria": "View document resources",
+      "mediaAria": "View media resources",
+      "linkAria": "View resource links"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "link",
+        "_forceDownload": false,
+        "title": "Leo User Guide",
+        "filename": "",
+        "description": "",
+        "_link": "https://lcmsplus.screenstepslive.com/s/18500/m/71674"
+      },
+      {
+        "_type": "link",
+        "_forceDownload": false,
+        "title": "Read our blog",
+        "filename": "",
+        "description": "",
+        "_link": "https://www.davinci-ed.com/resources"
+      },
+      {
+        "_type": "link",
+        "_forceDownload": false,
+        "title": "Twitter",
+        "filename": "",
+        "description": "",
+        "_link": "https://twitter.com/davinci_ed"
+      },
+      {
+        "_type": "link",
+        "_forceDownload": false,
+        "title": "YouTube",
+        "filename": "",
+        "description": "",
+        "_link": "https://www.youtube.com/channel/UCue0oVvqTEI9dm0DBeX612g"
+      }
+    ]
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "page",
+    "_showPrompt": true,
+    "title": "Bookmarking",
+    "body": "Would you like to continue where you left off?",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_pageIncompletePrompt": {
+    "_isEnabled": true,
+    "title": "Page incomplete",
+    "message": "Are you sure you would like to leave?",
+    "_classes": "",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_close": {
+    "_isEnabled": true,
+    "_button": {
+      "_closeViaLMSFinish": false,
+      "_isEnabled": true,
+      "_notifyPromptIfIncomplete": {
+        "_isEnabled": true,
+        "title": "Confirm close",
+        "body": "<p>Are you sure you want to close the window?</p>",
+        "confirm": "Close window",
+        "cancel": "Cancel"
+      },
+      "_notifyPromptIfComplete": {
+        "_isEnabled": true,
+        "title": "Confirm close",
+        "body": "<p>Are you sure you want to close the window?</p>",
+        "confirm": "Close window",
+        "cancel": "Cancel"
+      }
+    },
+    "browserPromptIfIncomplete": "",
+    "browserPromptIfComplete": ""
+  },
+  "_nameInput": {
+    "_isEnabled": true,
+    "_delay": 46,
+    "_buttons": {
+      "yes": "Continue",
+      "no": "Cancel"
+    },
+    "_prompt": {
+      "title": "Please enter your name",
+      "body": "<p>We will use your name to personalize this course for you. Don't worry though, we won't store your details and they won't be shared with any third party.</p>",
+      "placeholder": "Your Name"
+    },
+    "_callUponName": "<span class='inputs-name-here' style='background-color:#transparent'>&nbsp;</span>"
+  },
+  "_boxMenu": {
+    "_backgroundImage": {
+      "_large": "",
+      "_medium": "",
+      "_small": ""
+    },
+    "_backgroundStyles": {
+      "_backgroundRepeat": null,
+      "_backgroundSize": null,
+      "_backgroundPosition": null
+    },
+    "_menuHeader": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_minimumHeights": {
+        "_large": null,
+        "_medium": null,
+        "_small": null
+      }
+    }
+  }
+}

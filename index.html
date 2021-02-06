@@ -8,6 +8,33 @@
     <link href="adapt.css" type="text/css" rel="stylesheet">
     <script src="libraries/modernizr.js" type="text/javascript"></script>
     <script src="adapt/js/scriptLoader.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <script type="text/javascript" src="xapiwrapper.min.js"></script>
+    <script src="xapi.js"></script>
+    <script>
+
+      function pageAccessed() {
+        setTimeout(function() {
+          var page = window.location.href;
+
+          if (window.location.href.indexOf('VXMU0rO9yirD7OFLZbm_J9F3gjIqA9k9') > 0) {
+
+            sendStatement('hhttp://activitystrea.ms/schema/1.0/experience','experienced',page,'Evaluations in Leo','in Orientation to Leo v.2020');
+
+          }
+          
+          if (window.location.href.indexOf('E3psNhSz4bfvrhAp_ZW8fVg0-Owp7nhW') > 0) {
+
+            sendStatement('http://activitystrea.ms/schema/1.0/complete','completed',page,'Evaluations in Leo','in Orientation to Leo v.2020');
+          }
+        }, 1000);
+      }
+
+      window.addEventListener('load', pageAccessed, false);
+      window.addEventListener('hashchange', pageAccessed, false);
+
+      </script>
   </head>
   <body>
     <div id="app">

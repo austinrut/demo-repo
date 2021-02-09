@@ -39,12 +39,16 @@
     </script>
     <script>
       function toggleForm(){
-        document.body.classList.toggle('activeForm');
+        document.intro.classList.toggle('activeForm');
       }
   
     </script>
     <style>
-      }
+      .intro {
+        margin:0px;
+        font-family:"Open Sans",sans-serif;
+        background:#ddd;
+}     }
       .overlay-form {
         position:absolute;
         top:50vh;
@@ -124,7 +128,7 @@
         cursor:pointer;
       }
        
-      body.activeForm .overlay-form {
+      .intro.activeForm .overlay-form {
         z-index:2;
         opacity:1;
         top:0px;
@@ -138,7 +142,8 @@
 
   </head>
   <body>
-    <div class="overlay-form">
+    <div class="intro">
+      <div class="overlay-form">
       <div class="close-btn" onclick="toggleForm()">&times;</div>
       <h1>What's your insitution?</h1>
       <p>This will be used for the certificate you'll get upon completion of this Leo Online Course.</p>
@@ -146,9 +151,9 @@
         <label for="insitution">Institution</label>
         <input type="text" id="insitution">
       </div>
-        <button>Begin Course</button>
+      <button>Begin Course</button>
     </div>
-</div>
+  </div>
 <div class="center">
   <button onclick="toggleForm()">Begin Course</button>
 </div>

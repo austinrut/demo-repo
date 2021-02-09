@@ -36,9 +36,23 @@
       window.addEventListener('load', pageAccessed, false);
       window.addEventListener('hashchange', pageAccessed, false);
 
-      </script>
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('#overlay').fadeIn();
+      });
+      $('button').click(function () {
+        $('#overlay').fadeOut(200, "linear");
+      });
+    </script>
+
+
   </head>
   <body>
+    <div id="overlay" style="background: #000; height: 100px; color: #fff; padding: 20px;">
+      <h1>Sign up</h1>
+      <button>hide</button>
+    </div>
     <div id="app">
       <div id="wrapper">
       </div>
